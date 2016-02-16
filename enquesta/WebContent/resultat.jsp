@@ -12,7 +12,7 @@
 <%
 HashMap<String, Integer>begudes=(HashMap<String, Integer>)(request.getAttribute("begudes"));
 for(Entry<String, Integer> b: begudes.entrySet()){
-	%><%=b.getKey()%> <%=b.getValue()%><br> <%
+	%><%=b.getKey()%> : <%=b.getValue()%><br> <%
 } %>
 </body>
 </html>
